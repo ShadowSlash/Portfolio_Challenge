@@ -9,13 +9,16 @@ header {
 body p {
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(218, 205, 188);
-    float:left
+    
 }
 
 #project {
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;   
+    display:inline;
+    margin-left:5%;
+    margin-right: 5%; 
+    align-items: center;
+    justify-content: center;  
+    
 }
 
 footer {
@@ -26,7 +29,13 @@ footer {
 
 /* Section Styles */
 
-
+#sub-section {
+    display:inline-block;
+    margin-left: 6%;
+    margin-right: 7.6%;
+    align-items:center;
+    justify-content: center;  
+}
 
 /* Orginasation */
 
