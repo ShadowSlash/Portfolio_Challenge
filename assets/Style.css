@@ -39,3 +39,19 @@ footer {
 
 /* Orginasation */
 
+.container {
+    display:inline-flex;
+    align-items: left;
+    justify-content: left;
+    padding-right: 20%;
+}
+
+
+
+.text {
+    display: inline-flex;
+    font-size: 20px;
+    margin-right:20%;
+    margin-left: 20%;
+    float: left;
+}
