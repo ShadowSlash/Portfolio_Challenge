@@ -1,0 +1,32 @@
+/* Basic style */
+header {
+    background-color: rgb(174, 163, 148);
+    padding: 1px;
+    border-style: double;
+    text-align: center;
+}
+
+body p {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(218, 205, 188);
+    float:left
+}
+
+#project {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+footer {
+    background-color: rgb(143, 128, 109);
+    padding: 10px;
+    border-style: none;
+}
+
+/* Section Styles */
+
+
+
+/* Orginasation */
+
