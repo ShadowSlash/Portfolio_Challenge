@@ -134,47 +134,61 @@ span {
     border-radius: 50%;
     width: 350px;
 }
-/* ID */
+/* Projects */
 
-#project {
-    display: inline;
-    margin-left:5%;
-    margin-right: 5%; 
-    align-items: center;
-    justify-content: center;  
-    
-}
-
-#sub-section {
-    display:inline-block;
-    margin-left: 6%;
-    margin-right: 7.6%;
-    align-items:center;
-    justify-content: center;  
-}
-
-/* Class */
-
-.container {
-    display:inline-flex;
-    align-items: left;
-    justify-content: left;
-    padding-right: 20%;
-}
-
-
-
-.text {
-    display: inline-flex;
-    font-size: 20px;
-    margin-right:20%;
-    margin-left: 20%;
-    float: left;
-}
-
-.form {
-    justify-content: flex-start;
+.my-projects {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background: rgb(174, 163, 148);
 }
 
+.project1-img img {
+    position: relative;
+    width: 550px;
+    box-shadow: 0 0 25px bisque,
+                0 0 50px bisque;
+    border-radius: 50%;
+}
+
+.project1-content h2 {
+    text-align: left;
+    color: bisque;
+    font-size: 42px;
+}
+.project1-content h3 {
+    font-size: 62px;
+    color: bisque;
+}
+
+.project1-content p {
+    color: bisque;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+
+.project2-img img {
+    position:relative;
+    width: 550px;
+    box-shadow: 0 0 25px bisque,
+                0 0 50px bisque;
+    border-radius: 50%;
+}
+
+.project2-content h2 {
+    text-align: left;
+    color: bisque;
+    font-size: 42px;
+}
+.project2-content h3 {
+    font-size: 62px;
+    color: bisque;
+}
+
+.project2-content p {
+    color: bisque;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
