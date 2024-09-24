@@ -75,6 +75,65 @@ span {
     box-shadow: 0 0 25px burlywood;
 }
 
+/* About me section */
+
+.section1 {
+    width: 100%;
+    min-height: 100vh;
+    background: antiquewhite;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+.section1-content {
+    max-width: 800px;
+}
+
+.section1-content h3 {
+    font-size: 30px;
+}
+
+.section1-content h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.section1-content p {
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+
+.btn-box {
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+
+.btn-1 {
+    padding: 15px 28px;
+    background-color: burlywood;
+    color: antiquewhite;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    color: burlywood;
+    background-color: rgb(174, 163, 148);
+    border: 2px solid burlywood;
+}
+
+.img-box img {
+    border-radius: 50%;
+    width: 350px;
+}
 /* ID */
 
 #project {
