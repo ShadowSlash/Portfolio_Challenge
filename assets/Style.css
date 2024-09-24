@@ -1,34 +1,90 @@
 /* Basic style */
-header {
-    background-color: rgb(174, 163, 148);
-    padding: 1px;
-    border-style: double;
-    text-align: center;
-    text-decoration: underline
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
 }
 
-body p {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(218, 205, 188);
-    
+/* Header */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: rgb(174, 163, 148);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: centre;
+    z-index: 100;
 }
+
+.logo {
+    font-size: 25px;
+    color: antiquewhite;
+    font-weight: 600;
+    transition: o.3s ease;
+}
+
+.logo:hover {
+    color: burlywood;
+    text-shadow: 0 0 25px bisque,
+                 0 0 50px bisque;
+    transform: scale(1.1);
+}
+
+span {
+    color: burlywood;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: antiquewhite;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a:active {
+    color: burlywood;
+    border-bottom: 3px solid burlywood;
+}
+
+.contact {
+    padding: 10px 28px;
+    background-color: antiquewhite;
+    color: burlywood;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.contact:hover {
+    background-color: burlywood;
+    color: antiquewhite;
+    box-shadow: 0 0 25px burlywood;
+}
+
+/* ID */
 
 #project {
-    display:inline;
+    display: inline;
     margin-left:5%;
     margin-right: 5%; 
     align-items: center;
     justify-content: center;  
     
 }
-
-footer {
-    background-color: rgb(143, 128, 109);
-    padding: 10px;
-    border-style: none;
-}
-
-/* Section Styles */
 
 #sub-section {
     display:inline-block;
@@ -38,7 +94,7 @@ footer {
     justify-content: center;  
 }
 
-/* Orginasation */
+/* Class */
 
 .container {
     display:inline-flex;
@@ -56,3 +112,10 @@ footer {
     margin-left: 20%;
     float: left;
 }
+
+.form {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
