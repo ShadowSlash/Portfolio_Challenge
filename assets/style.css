@@ -271,3 +271,9 @@ span {
     font-size: 12px;
     color: antiquewhite;
 }
+
+/* Hidden Element */
+
+body {
+    overflow: auto; /* Can hide the scroll bar if changed to "Hidden" */
+  }
